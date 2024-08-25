@@ -1,0 +1,76 @@
+/* sideBar.css */
+.siderMenu {
+    height: 100%;
+    position: relative;
+    background-color: black;
+  }
+  
+  .collapseButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  @media (max-width: 768px) {
+    .collapseButton {
+      display: none;
+    }
+  }
+
+   /* .siderMenu {
+    height: 100%;
+    position: relative;
+    background-color: black;
+  }
+   
+  .collapseButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: auto;
+  }
+
+  .sider {
+    transition: all 0.3s;
+  }
+
+  .sider .collapsed {
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   height: 100%;
+   z-index: 1000;
+  }
+   
+  @media (max-width: 768px) {
+    .ant-layout-sider {
+      position: absolute;
+      z-index: 1000;
+    }
+   
+    .ant-layout-sider + .ant-layout {
+      margin-left: 80px;
+    }
+   
+    .ant-layout-sider-collapsed + .ant-layout {
+      margin-left: 80px;
+    }
+   
+    .ant-layout-content {
+      margin-left: 80px;
+      padding: 20px;
+    }
+  }
+   
+  @media (min-width: 769px) {
+    .ant-layout-sider {
+      position: relative;
+      z-index: auto;
+    }
+   
+    .ant-layout-content {
+      margin-left: 256px;
+    }
+  }
+
+
+   */

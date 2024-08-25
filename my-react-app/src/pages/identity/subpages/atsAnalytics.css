@@ -1,0 +1,24 @@
+  .charts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container{
+    width:45%;
+    height: 400px;
+  }
+  
+  /* For tablets: */
+  @media only screen and (max-width: 768px) {
+    .charts {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+  
+  /* For mobile phones: */
+  @media only screen and (max-width: 480px) {
+    
+
+  }

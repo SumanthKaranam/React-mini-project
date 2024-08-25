@@ -1,0 +1,41 @@
+.ant-layout-sider-collapsed .ant-menu-item .anticon {
+  margin-right: 0;
+}
+
+.ant-layout-sider-collapsed .ant-menu-item .anticon + span {
+  display: none;
+}
+
+.ant-layout-sider-collapsed .ant-menu-item-group-title {
+  display: none;
+}
+
+.ant-layout-sider-collapsed .ant-menu-submenu-title .anticon {
+  margin-right: 0;
+}
+
+.ant-layout-sider-collapsed .ant-menu-submenu-title .anticon + span {
+  display: none;
+}
+
+.customMenu .ant-menu-item:hover {
+  background-color: #32db86 !important;
+}
+
+.customMenu .ant-menu-submenu-title:hover {
+  background-color: #32db86 !important;
+}
+/* Change the background color to green when a menu item is selected */
+
+.customMenu .ant-menu-item-selected {
+  background-color: #32db86 !important;
+}
+
+.customMenu {
+  background-color: black !important;
+}
+
+.customLink {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,37 @@
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #32db86;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customLink {
+  color: blue;
+  text-decoration: underline;
+}
+
+h1,
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

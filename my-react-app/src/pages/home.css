@@ -1,0 +1,55 @@
+.homeContent {
+  padding: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.customLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.customLink:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.cardContainer .icon {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 1px 1px 5px 0px;
+}
+
+/* For tablets: */
+@media only screen and (max-width: 768px) {
+  .homeContent {
+    padding: 15px;
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 480px) {
+  .homeContent {
+    padding: 10px;
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

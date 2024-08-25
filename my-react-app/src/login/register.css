@@ -1,0 +1,19 @@
+.register-card {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  height: 600px;
+}
+
+.body {
+  background-color: #32db86;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.customLink {
+  color: blue;
+  text-decoration: underline;
+}
